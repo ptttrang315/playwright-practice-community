@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - generic [ref=e20]:
+        - button "0 0 $" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "0"
+            - generic [ref=e31]: 0 $
+        - link "My Account" [ref=e34] [cursor=pointer]:
+          - /url: https://e-commerce-dev.betterbytesvn.com/my-account/
+          - img [ref=e35]
+    - navigation [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Trang chủ" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e46]:
+          - link "Danh sách khoá học" [ref=e47] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e48]:
+          - link "Blog" [ref=e49] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - article [ref=e53]:
+          - 'heading "Search results: “istqb”" [level=1] [ref=e55]'
+          - alert [ref=e56]: Showing all 5 results
+          - combobox "Shop order" [ref=e58]:
+            - option "Relevance" [selected]
+            - option "Sort by popularity"
+            - option "Sort by average rating"
+            - option "Sort by latest"
+            - 'option "Sort by price: low to high"'
+            - 'option "Sort by price: high to low"'
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - 'link "Sale! ISTQB Test Manager ISTQB Test Manager Original price was: 599.000 $. Current price is: 279.000 $." [ref=e61] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-manager/
+                - generic [ref=e62]: Sale!
+                - img "ISTQB Test Manager" [ref=e63]
+                - heading "ISTQB Test Manager" [level=2] [ref=e64]
+                - generic [ref=e65]:
+                  - deletion [ref=e66]:
+                    - generic [ref=e68]: 599.000 $
+                  - generic [ref=e69]: "Original price was: 599.000 $."
+                  - insertion [ref=e70]:
+                    - generic [ref=e72]: 279.000 $
+                  - generic [ref=e73]: "Current price is: 279.000 $."
+              - 'button "Add to cart: “ISTQB Test Manager”" [ref=e74] [cursor=pointer]': Add to cart
+            - listitem [ref=e76]:
+              - 'link "Sale! ISTQB - Test Automation Engineer (CTAL-TAE) Tiếng Việt ISTQB – Test Automation Engineer (CTAL-TAE) Tiếng Việt Original price was: 599.000 $. Current price is: 279.000 $." [ref=e77] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-automation-engineer-ctal-tae-tieng-viet/
+                - generic [ref=e78]: Sale!
+                - img "ISTQB - Test Automation Engineer (CTAL-TAE) Tiếng Việt" [ref=e79]
+                - heading "ISTQB – Test Automation Engineer (CTAL-TAE) Tiếng Việt" [level=2] [ref=e80]
+                - generic [ref=e81]:
+                  - deletion [ref=e82]:
+                    - generic [ref=e84]: 599.000 $
+                  - generic [ref=e85]: "Original price was: 599.000 $."
+                  - insertion [ref=e86]:
+                    - generic [ref=e88]: 279.000 $
+                  - generic [ref=e89]: "Current price is: 279.000 $."
+              - 'button "Add to cart: “ISTQB - Test Automation Engineer (CTAL-TAE) Tiếng Việt”" [ref=e90] [cursor=pointer]': Add to cart
+            - listitem [ref=e92]:
+              - 'link "Sale! ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt Rated 5.00 out of 5 Original price was: 399.000 $. Current price is: 279.000 $." [ref=e93] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-certified-tester-finance-testing-ct-ft-tieng-viet/
+                - generic [ref=e94]: Sale!
+                - img "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [ref=e95]
+                - heading "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [level=2] [ref=e96]
+                - img "Rated 5.00 out of 5" [ref=e97]:
+                  - text: sssss
+                  - generic [ref=e98]:
+                    - text: SSSSS Rated
+                    - strong [ref=e99]: "5.00"
+                    - text: out of 5
+                - generic [ref=e100]:
+                  - deletion [ref=e101]:
+                    - generic [ref=e103]: 399.000 $
+                  - generic [ref=e104]: "Original price was: 399.000 $."
+                  - insertion [ref=e105]:
+                    - generic [ref=e107]: 279.000 $
+                  - generic [ref=e108]: "Current price is: 279.000 $."
+              - 'button "Add to cart: “ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt”" [ref=e109] [cursor=pointer]': Add to cart
+            - listitem [ref=e111]:
+              - 'link "Sale! ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt Original price was: 599.000 $. Current price is: 279.000 $." [ref=e112] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-testing-with-generative-ai-ct-genai-tieng-viet/
+                - generic [ref=e113]: Sale!
+                - img "ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt" [ref=e114]
+                - heading "ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt" [level=2] [ref=e115]
+                - generic [ref=e116]:
+                  - deletion [ref=e117]:
+                    - generic [ref=e119]: 599.000 $
+                  - generic [ref=e120]: "Original price was: 599.000 $."
+                  - insertion [ref=e121]:
+                    - generic [ref=e123]: 279.000 $
+                  - generic [ref=e124]: "Current price is: 279.000 $."
+              - 'button "Add to cart: “ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt”" [ref=e125] [cursor=pointer]': Add to cart
+            - listitem [ref=e127]:
+              - 'link "Sale! ISTQB Foundation Tiếng Việt - đã chỉnh sửa ISTQB Foundation Tiếng Việt – đã chỉnh sửa Original price was: 599.000 $. Current price is: 279.000 $." [ref=e128] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-foundation-tieng-viet/
+                - generic [ref=e129]: Sale!
+                - img "ISTQB Foundation Tiếng Việt - đã chỉnh sửa" [ref=e130]
+                - heading "ISTQB Foundation Tiếng Việt – đã chỉnh sửa" [level=2] [ref=e131]
+                - generic [ref=e132]:
+                  - deletion [ref=e133]:
+                    - generic [ref=e135]: 599.000 $
+                  - generic [ref=e136]: "Original price was: 599.000 $."
+                  - insertion [ref=e137]:
+                    - generic [ref=e139]: 279.000 $
+                  - generic [ref=e140]: "Current price is: 279.000 $."
+              - 'button "Add to cart: “ISTQB Foundation Tiếng Việt - đã chỉnh sửa”" [ref=e141] [cursor=pointer]': Add to cart
+        - complementary [ref=e143]:
+          - generic [ref=e146]:
+            - heading "Các comment gần đây" [level=2] [ref=e147]
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - article [ref=e150]:
+                  - generic [ref=e151]:
+                    - link "admin" [ref=e152] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e153] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e156]:
+            - heading "Categories" [level=2] [ref=e157]
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - link "Courses" [ref=e160] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e161]:
+                - link "Uncategorized" [ref=e162] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e163]:
+      - generic [ref=e165]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e166] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e167]

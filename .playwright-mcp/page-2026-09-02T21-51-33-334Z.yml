@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - generic [ref=e20]:
+        - button "1 279.000 $" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "1"
+            - generic [ref=e31]: 279.000 $
+        - link "My Account" [ref=e34] [cursor=pointer]:
+          - /url: https://e-commerce-dev.betterbytesvn.com/my-account/
+          - img [ref=e35]
+    - navigation [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Trang chủ" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e46]:
+          - link "Danh sách khoá học" [ref=e47] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e48]:
+          - link "Blog" [ref=e49] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - article [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - heading "My account" [level=1] [ref=e56]
+              - time
+            - generic [ref=e59]:
+              - heading "Login" [level=2] [ref=e60]
+              - generic [ref=e61]:
+                - paragraph [ref=e62]:
+                  - generic [ref=e63]:
+                    - text: Username or email address *
+                    - generic [ref=e64]: Required
+                  - textbox "Username or email address Required" [ref=e65]
+                - paragraph [ref=e66]:
+                  - generic [ref=e67]:
+                    - text: Password *
+                    - generic [ref=e68]: Required
+                  - generic [ref=e69]:
+                    - textbox "Password Required" [ref=e70]
+                    - button "Show password" [ref=e71] [cursor=pointer]
+                - paragraph [ref=e72]:
+                  - generic [ref=e73]:
+                    - checkbox "Remember me" [ref=e74]
+                    - text: Remember me
+                  - button "Log in" [ref=e75] [cursor=pointer]
+                - paragraph [ref=e76]:
+                  - link "Lost your password?" [ref=e77] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/my-account/lost-password/
+        - complementary [ref=e78]:
+          - generic [ref=e81]:
+            - heading "Các comment gần đây" [level=2] [ref=e82]
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - article [ref=e85]:
+                  - generic [ref=e86]:
+                    - link "admin" [ref=e87] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e88] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e91]:
+            - heading "Categories" [level=2] [ref=e92]
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Courses" [ref=e95] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e96]:
+                - link "Uncategorized" [ref=e97] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e98]:
+      - generic [ref=e100]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e101] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e102]

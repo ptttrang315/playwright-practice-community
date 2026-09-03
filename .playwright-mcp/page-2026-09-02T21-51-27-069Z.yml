@@ -1,0 +1,466 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - generic [ref=e20]:
+        - button "1 279.000 $" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "1"
+            - generic [ref=e31]: 279.000 $
+        - link "My Account" [ref=e34] [cursor=pointer]:
+          - /url: https://e-commerce-dev.betterbytesvn.com/my-account/
+          - img [ref=e35]
+    - navigation [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Trang chủ" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e46]:
+          - link "Danh sách khoá học" [ref=e47] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e48]:
+          - link "Blog" [ref=e49] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - article [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - heading "Checkout" [level=1] [ref=e56]
+              - time
+            - generic [ref=e60]:
+              - form "Checkout" [ref=e62]:
+                - generic [ref=e63]:
+                  - generic [ref=e64]:
+                    - heading "Express Checkout" [level=2] [ref=e66]
+                    - list [ref=e68]:
+                      - listitem [ref=e69]:
+                        - iframe [ref=e72]:
+                          - generic "PayPal" [ref=f10e2]:
+                            - link "Pay with PayPal" [ref=f10e5] [cursor=pointer]:
+                              - generic [ref=f10e7]: Pay with
+                      - listitem [ref=e73]:
+                        - iframe [ref=e76]:
+                          - generic "PayPal" [ref=f13e2]:
+                            - link "Debit or Credit Card" [ref=f13e5] [cursor=pointer]
+                  - generic [ref=e77]: Or continue below
+                - group "Contact information" [ref=e78]:
+                  - generic [ref=e79]: Contact information
+                  - heading "Contact information" [level=2] [ref=e82]
+                  - generic [ref=e84]:
+                    - generic [ref=e85]:
+                      - textbox "Email address" [ref=e86]
+                      - generic [ref=e87]: Email address
+                    - paragraph [ref=e88]: You are currently checking out as a guest.
+                - group "Delivery" [ref=e89]:
+                  - generic [ref=e90]: Delivery
+                  - heading "Delivery" [level=2] [ref=e93]
+                  - radiogroup [ref=e95]:
+                    - radio "Ship" [checked] [ref=e96] [cursor=pointer]:
+                      - generic [ref=e97]:
+                        - img [ref=e98]
+                        - generic [ref=e100]: Ship
+                    - radio "Pickup" [ref=e101] [cursor=pointer]:
+                      - generic [ref=e102]:
+                        - img [ref=e103]
+                        - generic [ref=e105]: Pickup
+                - group "Shipping address" [ref=e106]:
+                  - generic [ref=e107]: Shipping address
+                  - heading "Shipping address" [level=2] [ref=e110]
+                  - generic [ref=e111]:
+                    - generic [ref=e114]:
+                      - generic [ref=e117]:
+                        - generic [ref=e118]: Country/Region
+                        - combobox "Country/Region" [ref=e119]:
+                          - option "Select a country/region" [disabled]
+                          - option "Afghanistan"
+                          - option "Åland Islands"
+                          - option "Albania"
+                          - option "Algeria"
+                          - option "American Samoa"
+                          - option "Andorra"
+                          - option "Angola"
+                          - option "Anguilla"
+                          - option "Antarctica"
+                          - option "Antigua and Barbuda"
+                          - option "Argentina"
+                          - option "Armenia"
+                          - option "Aruba"
+                          - option "Australia"
+                          - option "Austria"
+                          - option "Azerbaijan"
+                          - option "Bahamas"
+                          - option "Bahrain"
+                          - option "Bangladesh"
+                          - option "Barbados"
+                          - option "Belarus"
+                          - option "Belau"
+                          - option "Belgium"
+                          - option "Belize"
+                          - option "Benin"
+                          - option "Bermuda"
+                          - option "Bhutan"
+                          - option "Bolivia"
+                          - option "Bonaire, Saint Eustatius and Saba"
+                          - option "Bosnia and Herzegovina"
+                          - option "Botswana"
+                          - option "Bouvet Island"
+                          - option "Brazil"
+                          - option "British Indian Ocean Territory"
+                          - option "Brunei"
+                          - option "Bulgaria"
+                          - option "Burkina Faso"
+                          - option "Burundi"
+                          - option "Cambodia"
+                          - option "Cameroon"
+                          - option "Canada"
+                          - option "Cape Verde"
+                          - option "Cayman Islands"
+                          - option "Central African Republic"
+                          - option "Chad"
+                          - option "Chile"
+                          - option "China"
+                          - option "Christmas Island"
+                          - option "Cocos (Keeling) Islands"
+                          - option "Colombia"
+                          - option "Comoros"
+                          - option "Congo (Brazzaville)"
+                          - option "Congo (Kinshasa)"
+                          - option "Cook Islands"
+                          - option "Costa Rica"
+                          - option "Croatia"
+                          - option "Cuba"
+                          - option "Curaçao"
+                          - option "Cyprus"
+                          - option "Czech Republic"
+                          - option "Denmark"
+                          - option "Djibouti"
+                          - option "Dominica"
+                          - option "Dominican Republic"
+                          - option "Ecuador"
+                          - option "Egypt"
+                          - option "El Salvador"
+                          - option "Equatorial Guinea"
+                          - option "Eritrea"
+                          - option "Estonia"
+                          - option "Eswatini"
+                          - option "Ethiopia"
+                          - option "Falkland Islands"
+                          - option "Faroe Islands"
+                          - option "Fiji"
+                          - option "Finland"
+                          - option "France"
+                          - option "French Guiana"
+                          - option "French Polynesia"
+                          - option "French Southern Territories"
+                          - option "Gabon"
+                          - option "Gambia"
+                          - option "Georgia"
+                          - option "Germany"
+                          - option "Ghana"
+                          - option "Gibraltar"
+                          - option "Greece"
+                          - option "Greenland"
+                          - option "Grenada"
+                          - option "Guadeloupe"
+                          - option "Guam"
+                          - option "Guatemala"
+                          - option "Guernsey"
+                          - option "Guinea"
+                          - option "Guinea-Bissau"
+                          - option "Guyana"
+                          - option "Haiti"
+                          - option "Heard Island and McDonald Islands"
+                          - option "Honduras"
+                          - option "Hong Kong"
+                          - option "Hungary"
+                          - option "Iceland"
+                          - option "India"
+                          - option "Indonesia"
+                          - option "Iran"
+                          - option "Iraq"
+                          - option "Ireland"
+                          - option "Isle of Man"
+                          - option "Israel"
+                          - option "Italy"
+                          - option "Ivory Coast"
+                          - option "Jamaica"
+                          - option "Japan"
+                          - option "Jersey"
+                          - option "Jordan"
+                          - option "Kazakhstan"
+                          - option "Kenya"
+                          - option "Kiribati"
+                          - option "Kosovo"
+                          - option "Kuwait"
+                          - option "Kyrgyzstan"
+                          - option "Laos"
+                          - option "Latvia"
+                          - option "Lebanon"
+                          - option "Lesotho"
+                          - option "Liberia"
+                          - option "Libya"
+                          - option "Liechtenstein"
+                          - option "Lithuania"
+                          - option "Luxembourg"
+                          - option "Macao"
+                          - option "Madagascar"
+                          - option "Malawi"
+                          - option "Malaysia"
+                          - option "Maldives"
+                          - option "Mali"
+                          - option "Malta"
+                          - option "Marshall Islands"
+                          - option "Martinique"
+                          - option "Mauritania"
+                          - option "Mauritius"
+                          - option "Mayotte"
+                          - option "Mexico"
+                          - option "Micronesia"
+                          - option "Moldova"
+                          - option "Monaco"
+                          - option "Mongolia"
+                          - option "Montenegro"
+                          - option "Montserrat"
+                          - option "Morocco"
+                          - option "Mozambique"
+                          - option "Myanmar"
+                          - option "Namibia"
+                          - option "Nauru"
+                          - option "Nepal"
+                          - option "Netherlands"
+                          - option "New Caledonia"
+                          - option "New Zealand"
+                          - option "Nicaragua"
+                          - option "Niger"
+                          - option "Nigeria"
+                          - option "Niue"
+                          - option "Norfolk Island"
+                          - option "North Korea"
+                          - option "North Macedonia"
+                          - option "Northern Mariana Islands"
+                          - option "Norway"
+                          - option "Oman"
+                          - option "Pakistan"
+                          - option "Palestinian Territory"
+                          - option "Panama"
+                          - option "Papua New Guinea"
+                          - option "Paraguay"
+                          - option "Peru"
+                          - option "Philippines"
+                          - option "Pitcairn"
+                          - option "Poland"
+                          - option "Portugal"
+                          - option "Puerto Rico"
+                          - option "Qatar"
+                          - option "Reunion"
+                          - option "Romania"
+                          - option "Russia"
+                          - option "Rwanda"
+                          - option "Saint Barthélemy"
+                          - option "Saint Helena"
+                          - option "Saint Kitts and Nevis"
+                          - option "Saint Lucia"
+                          - option "Saint Martin (Dutch part)"
+                          - option "Saint Martin (French part)"
+                          - option "Saint Pierre and Miquelon"
+                          - option "Saint Vincent and the Grenadines"
+                          - option "Samoa"
+                          - option "San Marino"
+                          - option "São Tomé and Príncipe"
+                          - option "Saudi Arabia"
+                          - option "Senegal"
+                          - option "Serbia"
+                          - option "Seychelles"
+                          - option "Sierra Leone"
+                          - option "Singapore"
+                          - option "Slovakia"
+                          - option "Slovenia"
+                          - option "Solomon Islands"
+                          - option "Somalia"
+                          - option "South Africa"
+                          - option "South Georgia/Sandwich Islands"
+                          - option "South Korea"
+                          - option "South Sudan"
+                          - option "Spain"
+                          - option "Sri Lanka"
+                          - option "Sudan"
+                          - option "Suriname"
+                          - option "Svalbard and Jan Mayen"
+                          - option "Sweden"
+                          - option "Switzerland"
+                          - option "Syria"
+                          - option "Taiwan"
+                          - option "Tajikistan"
+                          - option "Tanzania"
+                          - option "Thailand"
+                          - option "Timor-Leste"
+                          - option "Togo"
+                          - option "Tokelau"
+                          - option "Tonga"
+                          - option "Trinidad and Tobago"
+                          - option "Tunisia"
+                          - option "Türkiye"
+                          - option "Turkmenistan"
+                          - option "Turks and Caicos Islands"
+                          - option "Tuvalu"
+                          - option "Uganda"
+                          - option "Ukraine"
+                          - option "United Arab Emirates"
+                          - option "United Kingdom (UK)"
+                          - option "United States (US)"
+                          - option "United States (US) Minor Outlying Islands"
+                          - option "Uruguay"
+                          - option "Uzbekistan"
+                          - option "Vanuatu"
+                          - option "Vatican"
+                          - option "Venezuela"
+                          - option "Vietnam" [selected]
+                          - option "Virgin Islands (British)"
+                          - option "Virgin Islands (US)"
+                          - option "Wallis and Futuna"
+                          - option "Western Sahara"
+                          - option "Yemen"
+                          - option "Zambia"
+                          - option "Zimbabwe"
+                        - img
+                      - generic [ref=e120]:
+                        - textbox "First name" [ref=e121]
+                        - generic [ref=e122]: First name
+                      - generic [ref=e123]:
+                        - textbox "Last name" [ref=e124]
+                        - generic [ref=e125]: Last name
+                      - generic [ref=e126]:
+                        - textbox "Address" [ref=e127]
+                        - generic [ref=e128]: Address
+                      - button "+ Add apartment, suite, etc." [ref=e129] [cursor=pointer]
+                      - textbox [ref=e130]
+                      - generic [ref=e131]:
+                        - textbox "Postal code (optional)" [ref=e132]
+                        - generic [ref=e133]: Postal code (optional)
+                      - generic [ref=e134]:
+                        - textbox "City" [ref=e135]
+                        - generic [ref=e136]: City
+                      - generic [ref=e137]:
+                        - textbox "Phone (optional)" [ref=e138]
+                        - generic [ref=e139]: Phone (optional)
+                    - generic [ref=e141] [cursor=pointer]:
+                      - checkbox "Use same address for billing" [checked] [ref=e142]
+                      - img
+                      - generic [ref=e143]: Use same address for billing
+                - group "Shipping options" [ref=e144]:
+                  - generic [ref=e145]: Shipping options
+                  - heading "Shipping options" [level=2] [ref=e148]
+                  - generic [ref=e155] [cursor=pointer]:
+                    - radio "Flat rate 13 $" [checked] [ref=e156]
+                    - generic [ref=e158]:
+                      - generic [ref=e159]: Flat rate
+                      - generic [ref=e160]: 13 $
+                - group "Payment options" [ref=e161]:
+                  - generic [ref=e162]: Payment options
+                  - heading "Payment options" [level=2] [ref=e165]
+                  - generic [ref=e167]:
+                    - generic [ref=e168]:
+                      - generic [ref=e169] [cursor=pointer]:
+                        - radio "PayPal PayPal" [checked] [ref=e170]
+                        - generic [ref=e173]:
+                          - generic [ref=e174]: PayPal
+                          - img "PayPal" [ref=e176]
+                      - generic [ref=e178]:
+                        - paragraph [ref=e179]: Pay via PayPal.
+                        - paragraph [ref=e180]: Clicking "Proceed to PayPal" will redirect you to PayPal to complete your purchase.
+                    - generic [ref=e182] [cursor=pointer]:
+                      - radio "Direct bank transfer" [ref=e183]
+                      - generic [ref=e187]: Direct bank transfer
+                    - generic [ref=e189] [cursor=pointer]:
+                      - radio "Check payments" [ref=e190]
+                      - generic [ref=e194]: Check payments
+                    - generic [ref=e196] [cursor=pointer]:
+                      - radio "Cash on delivery" [ref=e197]
+                      - generic [ref=e201]: Cash on delivery
+                - generic [ref=e206] [cursor=pointer]:
+                  - checkbox "Add a note to your order" [ref=e207]
+                  - generic [ref=e208]: Add a note to your order
+                - generic [ref=e209]: By proceeding with your purchase you agree to our Terms and Conditions and Privacy Policy
+                - button "Proceed to PayPal" [ref=e212] [cursor=pointer]:
+                  - generic [ref=e214]: Proceed to PayPal
+              - generic [ref=e216]:
+                - heading "Order summary" [level=2] [ref=e218]
+                - generic [ref=e219]:
+                  - generic [ref=e223]:
+                    - generic [ref=e224]:
+                      - generic [ref=e225]:
+                        - generic [ref=e226]: "1"
+                        - generic [ref=e227]: 1 item
+                      - img "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [ref=e228]
+                    - generic [ref=e229]:
+                      - heading "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [level=3] [ref=e230]
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: "Previous price:"
+                        - deletion [ref=e234]: 399.000 $
+                        - generic [ref=e235]: "Discounted price:"
+                        - insertion [ref=e236]: 279.000 $
+                      - paragraph [ref=e239]: Chinh phục chứng chỉ ISTQB® CT-FT và làm chủ kỹ năng kiểm thử phần mềm…
+                    - generic [ref=e240]: "Total price for 1 ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt item: 279.000 $"
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: 279.000 $
+                      - generic [ref=e244]: Save 120.000 $
+                  - heading "Add coupons" [level=2] [ref=e246]:
+                    - button "Add coupons" [ref=e247] [cursor=pointer]:
+                      - img [ref=e248]
+                      - text: Add coupons
+                  - generic [ref=e250]:
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: Subtotal
+                      - generic [ref=e254]: 279.000 $
+                    - generic [ref=e257]:
+                      - generic [ref=e258]: Flat rate
+                      - generic [ref=e259]: 13 $
+                    - generic [ref=e261]:
+                      - generic [ref=e262]: Tax
+                      - generic [ref=e263]: 22.321 $
+                  - generic [ref=e265]:
+                    - generic [ref=e266]: Total
+                    - generic [ref=e267]: 301.334 $
+        - complementary [ref=e268]:
+          - generic [ref=e271]:
+            - heading "Các comment gần đây" [level=2] [ref=e272]
+            - list [ref=e273]:
+              - listitem [ref=e274]:
+                - article [ref=e275]:
+                  - generic [ref=e276]:
+                    - link "admin" [ref=e277] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e278] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e281]:
+            - heading "Categories" [level=2] [ref=e282]
+            - list [ref=e283]:
+              - listitem [ref=e284]:
+                - link "Courses" [ref=e285] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e286]:
+                - link "Uncategorized" [ref=e287] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e288]:
+      - generic [ref=e290]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e291] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e294]

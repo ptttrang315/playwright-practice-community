@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - generic [ref=e20]:
+        - button "1 279.000 $" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "1"
+            - generic [ref=e31]: 279.000 $
+        - link "My Account" [ref=e34] [cursor=pointer]:
+          - /url: https://e-commerce-dev.betterbytesvn.com/my-account/
+          - img [ref=e35]
+    - navigation [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Trang chủ" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e46]:
+          - link "Danh sách khoá học" [ref=e47] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e48]:
+          - link "Blog" [ref=e49] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - article [ref=e54]:
+            - generic [ref=e55]:
+              - link "Learning The Javascript Imagination" [ref=e57] [cursor=pointer]:
+                - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-javascript-imagination-2/
+              - generic [ref=e58]:
+                - heading "Learning The Javascript Imagination" [level=2] [ref=e59]:
+                  - link "Learning The Javascript Imagination" [ref=e60] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-javascript-imagination-2/
+                - time
+              - generic [ref=e61]:
+                - text: 22/06/2026
+                - generic [ref=e62]:
+                  - text: By
+                  - link "PWA Student" [ref=e63] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/pwa_student/
+                - generic [ref=e64]:
+                  - link "0" [ref=e65] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-javascript-imagination-2/#comments
+                  - img [ref=e66]
+              - paragraph [ref=e69]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          - article [ref=e70]:
+            - generic [ref=e71]:
+              - link "Learning the digital Marketing on facebook" [ref=e73] [cursor=pointer]:
+                - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-digital-marketing-on-facebook-2/
+              - generic [ref=e74]:
+                - heading "Learning the digital Marketing on facebook" [level=2] [ref=e75]:
+                  - link "Learning the digital Marketing on facebook" [ref=e76] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-digital-marketing-on-facebook-2/
+                - time
+              - generic [ref=e77]:
+                - text: 22/06/2026
+                - generic [ref=e78]:
+                  - text: By
+                  - link "PWA Student" [ref=e79] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/pwa_student/
+                - generic [ref=e80]:
+                  - link "0" [ref=e81] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-digital-marketing-on-facebook-2/#comments
+                  - img [ref=e82]
+              - paragraph [ref=e85]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          - article [ref=e86]:
+            - generic [ref=e87]:
+              - link "The Complete Graphic Design For Beginners" [ref=e89] [cursor=pointer]:
+                - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/
+              - generic [ref=e90]:
+                - heading "The Complete Graphic Design For Beginners" [level=2] [ref=e91]:
+                  - link "The Complete Graphic Design For Beginners" [ref=e92] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/
+                - time
+              - generic [ref=e93]:
+                - text: 22/06/2026
+                - generic [ref=e94]:
+                  - text: By
+                  - link "PWA Student" [ref=e95] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/pwa_student/
+                - generic [ref=e96]:
+                  - link "1" [ref=e97] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comments
+                  - img [ref=e98]
+              - paragraph [ref=e101]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          - article [ref=e102]:
+            - generic [ref=e103]:
+              - link "Learning The Javascript Imagination" [ref=e105] [cursor=pointer]:
+                - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-javascript-imagination/
+              - generic [ref=e106]:
+                - heading "Learning The Javascript Imagination" [level=2] [ref=e107]:
+                  - link "Learning The Javascript Imagination" [ref=e108] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-javascript-imagination/
+                - time
+              - generic [ref=e109]:
+                - text: 22/06/2026
+                - generic [ref=e110]:
+                  - text: By
+                  - link "PWA Student" [ref=e111] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/pwa_student/
+                - generic [ref=e112]:
+                  - link "0" [ref=e113] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-javascript-imagination/#comments
+                  - img [ref=e114]
+              - paragraph [ref=e117]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          - article [ref=e118]:
+            - generic [ref=e119]:
+              - link "Learning the digital Marketing on facebook" [ref=e121] [cursor=pointer]:
+                - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-digital-marketing-on-facebook/
+              - generic [ref=e122]:
+                - heading "Learning the digital Marketing on facebook" [level=2] [ref=e123]:
+                  - link "Learning the digital Marketing on facebook" [ref=e124] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-digital-marketing-on-facebook/
+                - time
+              - generic [ref=e125]:
+                - text: 22/06/2026
+                - generic [ref=e126]:
+                  - text: By
+                  - link "PWA Student" [ref=e127] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/pwa_student/
+                - generic [ref=e128]:
+                  - link "0" [ref=e129] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/learning-the-digital-marketing-on-facebook/#comments
+                  - img [ref=e130]
+              - paragraph [ref=e133]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          - article [ref=e134]:
+            - generic [ref=e135]:
+              - link "The Complete Graphic Design For Beginners" [ref=e137] [cursor=pointer]:
+                - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners/
+              - generic [ref=e138]:
+                - heading "The Complete Graphic Design For Beginners" [level=2] [ref=e139]:
+                  - link "The Complete Graphic Design For Beginners" [ref=e140] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners/
+                - time
+              - generic [ref=e141]:
+                - text: 22/06/2026
+                - generic [ref=e142]:
+                  - text: By
+                  - link "PWA Student" [ref=e143] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/pwa_student/
+                - generic [ref=e144]:
+                  - link "0" [ref=e145] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners/#comments
+                  - img [ref=e146]
+              - paragraph [ref=e149]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          - article [ref=e150]:
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - heading "Hello world!" [level=2] [ref=e153]:
+                  - link "Hello world!" [ref=e154] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/hello-world/
+                - time
+              - generic [ref=e155]:
+                - text: 04/05/2025
+                - generic [ref=e156]:
+                  - text: By
+                  - link "admin" [ref=e157] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/author/admin/
+                - generic [ref=e158]:
+                  - link "0" [ref=e159] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/hello-world/#comments
+                  - img [ref=e160]
+              - paragraph [ref=e163]: Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+        - complementary [ref=e164]:
+          - generic [ref=e167]:
+            - heading "Các comment gần đây" [level=2] [ref=e168]
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - article [ref=e171]:
+                  - generic [ref=e172]:
+                    - link "admin" [ref=e173] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e174] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e177]:
+            - heading "Categories" [level=2] [ref=e178]
+            - list [ref=e179]:
+              - listitem [ref=e180]:
+                - link "Courses" [ref=e181] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e182]:
+                - link "Uncategorized" [ref=e183] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e184]:
+      - generic [ref=e186]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e187] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e188]

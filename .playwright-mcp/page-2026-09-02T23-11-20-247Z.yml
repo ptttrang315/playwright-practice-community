@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - generic [ref=e20]:
+        - button "0 0 $" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "0"
+            - generic [ref=e31]: 0 $
+        - link "My Account" [ref=e34] [cursor=pointer]:
+          - /url: https://e-commerce-dev.betterbytesvn.com/my-account/
+          - img [ref=e35]
+    - navigation [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Trang chủ" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e46]:
+          - link "Danh sách khoá học" [ref=e47] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e48]:
+          - link "Blog" [ref=e49] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - article [ref=e53]:
+          - 'heading "Search results: “Playwright”" [level=1] [ref=e55]'
+          - alert [ref=e56]: Showing all 2 results
+          - combobox "Shop order" [ref=e58]:
+            - option "Relevance" [selected]
+            - option "Sort by popularity"
+            - option "Sort by average rating"
+            - option "Sort by latest"
+            - 'option "Sort by price: low to high"'
+            - 'option "Sort by price: high to low"'
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - 'link "Sale! FullStack Automation QA với Playwright Typescript FullStack Automation QA với Playwright Typescript Original price was: 2.499.000 $. Current price is: 1.749.000 $." [ref=e61] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/fullstack-automation-qa-voi-playwright-typescript/
+                - generic [ref=e62]: Sale!
+                - img "FullStack Automation QA với Playwright Typescript" [ref=e63]
+                - heading "FullStack Automation QA với Playwright Typescript" [level=2] [ref=e64]
+                - generic [ref=e65]:
+                  - deletion [ref=e66]:
+                    - generic [ref=e68]: 2.499.000 $
+                  - generic [ref=e69]: "Original price was: 2.499.000 $."
+                  - insertion [ref=e70]:
+                    - generic [ref=e72]: 1.749.000 $
+                  - generic [ref=e73]: "Current price is: 1.749.000 $."
+              - 'button "Add to cart: “FullStack Automation QA với Playwright Typescript”" [ref=e74] [cursor=pointer]': Add to cart
+            - listitem [ref=e76]:
+              - 'link "Sale! API automation Testing với Playwright TypeScript API automation Testing với Playwright TypeScript Original price was: 599.000 $. Current price is: 579.000 $." [ref=e77] [cursor=pointer]':
+                - /url: https://e-commerce-dev.betterbytesvn.com/product/api-automation-testing-voi-playwright-typescript/
+                - generic [ref=e78]: Sale!
+                - img "API automation Testing với Playwright TypeScript" [ref=e79]
+                - heading "API automation Testing với Playwright TypeScript" [level=2] [ref=e80]
+                - generic [ref=e81]:
+                  - deletion [ref=e82]:
+                    - generic [ref=e84]: 599.000 $
+                  - generic [ref=e85]: "Original price was: 599.000 $."
+                  - insertion [ref=e86]:
+                    - generic [ref=e88]: 579.000 $
+                  - generic [ref=e89]: "Current price is: 579.000 $."
+              - 'button "Add to cart: “API automation Testing với Playwright TypeScript”" [ref=e90] [cursor=pointer]': Add to cart
+        - complementary [ref=e92]:
+          - generic [ref=e95]:
+            - heading "Các comment gần đây" [level=2] [ref=e96]
+            - list [ref=e97]:
+              - listitem [ref=e98]:
+                - article [ref=e99]:
+                  - generic [ref=e100]:
+                    - link "admin" [ref=e101] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e102] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e105]:
+            - heading "Categories" [level=2] [ref=e106]
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - link "Courses" [ref=e109] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e110]:
+                - link "Uncategorized" [ref=e111] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e112]:
+      - generic [ref=e114]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e115] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e116]

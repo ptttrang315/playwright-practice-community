@@ -1,0 +1,225 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - heading "E-commerce site testing" [level=1] [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - button "0 0 $" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - generic [ref=e29]:
+          - generic [ref=e30]: "0"
+          - generic [ref=e31]: 0 $
+    - navigation [ref=e38]:
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - link "Trang chủ" [ref=e41] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e42]:
+          - link "Danh sách khoá học" [ref=e43] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e44]:
+          - link "Blog" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e46]:
+      - generic [ref=e48]:
+        - article [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - heading "Trang chủ" [level=1] [ref=e52]
+              - time
+            - generic [ref=e54]:
+              - heading "Tất cả các khóa học" [level=2] [ref=e55]
+              - generic [ref=e56]:
+                - paragraph
+                - list [ref=e57]:
+                  - listitem [ref=e58]:
+                    - link "API automation Testing với Playwright TypeScript Product on sale" [ref=e60] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/api-automation-testing-voi-playwright-typescript/
+                      - img "API automation Testing với Playwright TypeScript" [ref=e61]
+                      - generic [ref=e63]:
+                        - text: Sale
+                        - generic [ref=e64]: Product on sale
+                    - heading "API automation Testing với Playwright TypeScript" [level=2] [ref=e65]:
+                      - link "API automation Testing với Playwright TypeScript" [ref=e66] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/api-automation-testing-voi-playwright-typescript/
+                    - generic [ref=e68]:
+                      - deletion [ref=e69]:
+                        - generic [ref=e71]: 599.000 $
+                      - generic [ref=e72]: "Original price was: 599.000 $."
+                      - insertion [ref=e73]:
+                        - generic [ref=e75]: 579.000 $
+                      - generic [ref=e76]: "Current price is: 579.000 $."
+                    - 'button "Add to cart: “API automation Testing với Playwright TypeScript”" [ref=e78] [cursor=pointer]':
+                      - generic [ref=e79]: Add to cart
+                  - listitem [ref=e80]:
+                    - link "FullStack Automation QA với Playwright Typescript Product on sale" [ref=e82] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/fullstack-automation-qa-voi-playwright-typescript/
+                      - img "FullStack Automation QA với Playwright Typescript" [ref=e83]
+                      - generic [ref=e85]:
+                        - text: Sale
+                        - generic [ref=e86]: Product on sale
+                    - heading "FullStack Automation QA với Playwright Typescript" [level=2] [ref=e87]:
+                      - link "FullStack Automation QA với Playwright Typescript" [ref=e88] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/fullstack-automation-qa-voi-playwright-typescript/
+                    - generic [ref=e90]:
+                      - deletion [ref=e91]:
+                        - generic [ref=e93]: 2.499.000 $
+                      - generic [ref=e94]: "Original price was: 2.499.000 $."
+                      - insertion [ref=e95]:
+                        - generic [ref=e97]: 1.749.000 $
+                      - generic [ref=e98]: "Current price is: 1.749.000 $."
+                    - 'button "Add to cart: “FullStack Automation QA với Playwright Typescript”" [ref=e100] [cursor=pointer]':
+                      - generic [ref=e101]: Add to cart
+                  - listitem [ref=e102]:
+                    - link "ISTQB - Test Automation Engineer (CTAL-TAE) Tiếng Việt Product on sale" [ref=e104] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-automation-engineer-ctal-tae-tieng-viet/
+                      - img "ISTQB - Test Automation Engineer (CTAL-TAE) Tiếng Việt" [ref=e105]
+                      - generic [ref=e107]:
+                        - text: Sale
+                        - generic [ref=e108]: Product on sale
+                    - heading "ISTQB – Test Automation Engineer (CTAL-TAE) Tiếng Việt" [level=2] [ref=e109]:
+                      - link "ISTQB – Test Automation Engineer (CTAL-TAE) Tiếng Việt" [ref=e110] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-automation-engineer-ctal-tae-tieng-viet/
+                    - generic [ref=e112]:
+                      - deletion [ref=e113]:
+                        - generic [ref=e115]: 599.000 $
+                      - generic [ref=e116]: "Original price was: 599.000 $."
+                      - insertion [ref=e117]:
+                        - generic [ref=e119]: 279.000 $
+                      - generic [ref=e120]: "Current price is: 279.000 $."
+                    - 'button "Add to cart: “ISTQB - Test Automation Engineer (CTAL-TAE) Tiếng Việt”" [ref=e122] [cursor=pointer]':
+                      - generic [ref=e123]: Add to cart
+                  - listitem [ref=e124]:
+                    - link "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt Product on sale" [ref=e126] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-certified-tester-finance-testing-ct-ft-tieng-viet/
+                      - img "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [ref=e127]
+                      - generic [ref=e129]:
+                        - text: Sale
+                        - generic [ref=e130]: Product on sale
+                    - heading "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [level=2] [ref=e131]:
+                      - link "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [ref=e132] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-certified-tester-finance-testing-ct-ft-tieng-viet/
+                    - generic [ref=e134]:
+                      - deletion [ref=e135]:
+                        - generic [ref=e137]: 399.000 $
+                      - generic [ref=e138]: "Original price was: 399.000 $."
+                      - insertion [ref=e139]:
+                        - generic [ref=e141]: 279.000 $
+                      - generic [ref=e142]: "Current price is: 279.000 $."
+                    - 'button "Add to cart: “ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt”" [ref=e144] [cursor=pointer]':
+                      - generic [ref=e145]: Add to cart
+                  - listitem [ref=e146]:
+                    - link "ISTQB Foundation Tiếng Việt - đã chỉnh sửa Product on sale" [ref=e148] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-foundation-tieng-viet/
+                      - img "ISTQB Foundation Tiếng Việt - đã chỉnh sửa" [ref=e149]
+                      - generic [ref=e151]:
+                        - text: Sale
+                        - generic [ref=e152]: Product on sale
+                    - heading "ISTQB Foundation Tiếng Việt – đã chỉnh sửa" [level=2] [ref=e153]:
+                      - link "ISTQB Foundation Tiếng Việt – đã chỉnh sửa" [ref=e154] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-foundation-tieng-viet/
+                    - generic [ref=e156]:
+                      - deletion [ref=e157]:
+                        - generic [ref=e159]: 599.000 $
+                      - generic [ref=e160]: "Original price was: 599.000 $."
+                      - insertion [ref=e161]:
+                        - generic [ref=e163]: 279.000 $
+                      - generic [ref=e164]: "Current price is: 279.000 $."
+                    - 'button "Add to cart: “ISTQB Foundation Tiếng Việt - đã chỉnh sửa”" [ref=e166] [cursor=pointer]':
+                      - generic [ref=e167]: Add to cart
+                  - listitem [ref=e168]:
+                    - link "ISTQB Test Manager Product on sale" [ref=e170] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-manager/
+                      - img "ISTQB Test Manager" [ref=e171]
+                      - generic [ref=e173]:
+                        - text: Sale
+                        - generic [ref=e174]: Product on sale
+                    - heading "ISTQB Test Manager" [level=2] [ref=e175]:
+                      - link "ISTQB Test Manager" [ref=e176] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-manager/
+                    - generic [ref=e178]:
+                      - deletion [ref=e179]:
+                        - generic [ref=e181]: 599.000 $
+                      - generic [ref=e182]: "Original price was: 599.000 $."
+                      - insertion [ref=e183]:
+                        - generic [ref=e185]: 279.000 $
+                      - generic [ref=e186]: "Current price is: 279.000 $."
+                    - 'button "Add to cart: “ISTQB Test Manager”" [ref=e188] [cursor=pointer]':
+                      - generic [ref=e189]: Add to cart
+                  - listitem [ref=e190]:
+                    - link "ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt Product on sale" [ref=e192] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-testing-with-generative-ai-ct-genai-tieng-viet/
+                      - img "ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt" [ref=e193]
+                      - generic [ref=e195]:
+                        - text: Sale
+                        - generic [ref=e196]: Product on sale
+                    - heading "ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt" [level=2] [ref=e197]:
+                      - link "ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt" [ref=e198] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-testing-with-generative-ai-ct-genai-tieng-viet/
+                    - generic [ref=e200]:
+                      - deletion [ref=e201]:
+                        - generic [ref=e203]: 599.000 $
+                      - generic [ref=e204]: "Original price was: 599.000 $."
+                      - insertion [ref=e205]:
+                        - generic [ref=e207]: 279.000 $
+                      - generic [ref=e208]: "Current price is: 279.000 $."
+                    - 'button "Add to cart: “ISTQB Testing with Generative AI (CT-GenAI) tiếng Việt”" [ref=e210] [cursor=pointer]':
+                      - generic [ref=e211]: Add to cart
+                  - listitem [ref=e212]:
+                    - link "Regular Expression cho Tester tiếng Việt Product on sale" [ref=e214] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/product/regular-expression-cho-tester-tieng-viet/
+                      - img "Regular Expression cho Tester tiếng Việt" [ref=e215]
+                      - generic [ref=e217]:
+                        - text: Sale
+                        - generic [ref=e218]: Product on sale
+                    - heading "Regular Expression cho Tester tiếng Việt" [level=2] [ref=e219]:
+                      - link "Regular Expression cho Tester tiếng Việt" [ref=e220] [cursor=pointer]:
+                        - /url: https://e-commerce-dev.betterbytesvn.com/product/regular-expression-cho-tester-tieng-viet/
+                    - generic [ref=e222]:
+                      - deletion [ref=e223]:
+                        - generic [ref=e225]: 399.000 $
+                      - generic [ref=e226]: "Original price was: 399.000 $."
+                      - insertion [ref=e227]:
+                        - generic [ref=e229]: 279.000 $
+                      - generic [ref=e230]: "Current price is: 279.000 $."
+                    - 'button "Add to cart: “Regular Expression cho Tester tiếng Việt”" [ref=e232] [cursor=pointer]':
+                      - generic [ref=e233]: Add to cart
+        - complementary [ref=e234]:
+          - generic [ref=e237]:
+            - heading "Các comment gần đây" [level=2] [ref=e238]
+            - list [ref=e239]:
+              - listitem [ref=e240]:
+                - article [ref=e241]:
+                  - generic [ref=e242]:
+                    - link "admin" [ref=e243] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e244] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e247]:
+            - heading "Categories" [level=2] [ref=e248]
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - link "Courses" [ref=e251] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e252]:
+                - link "Uncategorized" [ref=e253] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e254]:
+      - generic [ref=e256]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e257] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e260]

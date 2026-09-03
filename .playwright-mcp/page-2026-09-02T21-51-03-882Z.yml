@@ -1,0 +1,224 @@
+- generic [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - link "E-commerce site testing" [ref=e10] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - paragraph [ref=e11]: Website thực hành – hoctest.com
+      - generic [ref=e13]:
+        - search:
+          - textbox "Search products..." [ref=e14]
+          - combobox [ref=e15] [cursor=pointer]:
+            - option "All Categories" [selected]
+            - option "Uncategorized"
+          - button [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+      - generic [ref=e20]:
+        - button "0 0 $" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "0"
+            - generic [ref=e31]: 0 $
+        - link "My Account" [ref=e34] [cursor=pointer]:
+          - /url: https://e-commerce-dev.betterbytesvn.com/my-account/
+          - img [ref=e35]
+    - navigation [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Trang chủ" [ref=e45] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/
+        - listitem [ref=e46]:
+          - link "Danh sách khoá học" [ref=e47] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/shop/
+        - listitem [ref=e48]:
+          - link "Blog" [ref=e49] [cursor=pointer]:
+            - /url: https://e-commerce-dev.betterbytesvn.com/blog/
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - article [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: Sale!
+            - generic [ref=e56]:
+              - button "View full-screen image gallery" [ref=e57] [cursor=pointer]:
+                - img [ref=e59]
+              - generic [ref=e61]:
+                - link "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [ref=e62] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/wp-content/uploads/2026/06/ISTQB-CT-FT.png
+                  - img "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [ref=e63]
+                - img [ref=e195]
+            - generic [ref=e64]:
+              - heading "ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [level=1] [ref=e65]
+              - generic [ref=e66]:
+                - img "Rated 5.00 out of 5" [ref=e67]:
+                  - text: sssss
+                  - generic [ref=e68]:
+                    - text: SSSSS Rated
+                    - strong [ref=e69]: "5.00"
+                    - text: out of 5 based on
+                    - generic [ref=e70]: SSSSS 1
+                    - text: customer rating
+                - link "(1 customer review)" [ref=e71] [cursor=pointer]:
+                  - /url: "#reviews"
+              - paragraph [ref=e72]:
+                - deletion [ref=e73]:
+                  - generic [ref=e75]: 399.000 $
+                - generic [ref=e76]: "Original price was: 399.000 $."
+                - insertion [ref=e77]:
+                  - generic [ref=e79]: 279.000 $
+                - generic [ref=e80]: "Current price is: 279.000 $."
+              - paragraph [ref=e82]: Chinh phục chứng chỉ ISTQB® CT-FT và làm chủ kỹ năng kiểm thử phần mềm tài chính chuyên nghiệp.
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt quantity
+                  - spinbutton "Product quantity" [ref=e86]: "1"
+                - button "Add to cart" [ref=e87] [cursor=pointer]
+              - iframe [ref=e91]:
+                - generic "PayPal" [ref=f1e2]:
+                  - link "Pay with PayPal" [ref=f1e5] [cursor=pointer]:
+                    - generic [ref=f1e7]: Pay with
+              - generic [ref=e92]:
+                - generic [ref=e93]: "SKU: ISTQB-CERTIFIED-TESTER-FINANCE-TESTING-CT-FT-TIENG-VIET"
+                - generic [ref=e94]:
+                  - text: "Category:"
+                  - link "Uncategorized" [ref=e95] [cursor=pointer]:
+                    - /url: https://e-commerce-dev.betterbytesvn.com/product-category/uncategorized/
+            - generic [ref=e96]:
+              - tablist [ref=e97]:
+                - tab "Description" [ref=e98] [cursor=pointer]
+                - tab "Reviews (1)" [active] [selected] [ref=e99] [cursor=pointer]
+              - tabpanel "Reviews (1)" [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]:
+                    - heading "1 review for ISTQB Certified Tester Finance Testing (CT-FT) Tiếng Việt" [level=2] [ref=e199]
+                    - list [ref=e200]:
+                      - listitem [ref=e201]:
+                        - generic [ref=e203]:
+                          - img "Rated 5 out of 5" [ref=e204]:
+                            - text: sssss
+                            - generic [ref=e205]:
+                              - text: SSSSS Rated
+                              - strong [ref=e206]: "5"
+                              - text: out of 5
+                          - paragraph [ref=e207]:
+                            - strong [ref=e208]: admin
+                            - text: –
+                            - time [ref=e209]: 01/07/2026
+                          - paragraph [ref=e211]: Good course. Có thể tham khảo thêm “khuyenmai.hoctest.com” để lấy danh sách các chứng chỉ
+                  - generic [ref=e214]:
+                    - heading "Add a review" [level=3] [ref=e215]: Add a review
+                    - generic [ref=e216]:
+                      - paragraph [ref=e217]:
+                        - text: Your email address will not be published.
+                        - generic [ref=e218]: Required fields are marked *
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: Your rating *
+                        - paragraph [ref=e221]:
+                          - group "Your rating *" [ref=e222]:
+                            - radio " 1 of 5 stars" [ref=e223] [cursor=pointer]
+                            - radio " 2 of 5 stars" [ref=e224] [cursor=pointer]
+                            - radio " 3 of 5 stars" [ref=e225] [cursor=pointer]
+                            - radio " 4 of 5 stars" [ref=e226] [cursor=pointer]
+                            - radio " 5 of 5 stars" [ref=e227] [cursor=pointer]
+                      - paragraph [ref=e228]:
+                        - generic [ref=e229]: Your review *
+                        - textbox "Your review *" [ref=e230]
+                      - paragraph [ref=e231]:
+                        - generic [ref=e232]: Name *
+                        - textbox "Name *" [ref=e233]
+                      - paragraph [ref=e234]:
+                        - generic [ref=e235]: Email *
+                        - textbox "Email *" [ref=e236]
+                      - paragraph [ref=e237]:
+                        - checkbox "Save my name, email, and website in this browser for the next time I comment." [ref=e238]
+                        - generic [ref=e239]: Save my name, email, and website in this browser for the next time I comment.
+                      - paragraph [ref=e240]:
+                        - button "Submit" [ref=e241] [cursor=pointer]
+            - generic [ref=e103]:
+              - heading "Related products" [level=2] [ref=e104]
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - 'link "Sale! FullStack Automation QA với Playwright Typescript FullStack Automation QA với Playwright Typescript Original price was: 2.499.000 $. Current price is: 1.749.000 $." [ref=e107] [cursor=pointer]':
+                    - /url: https://e-commerce-dev.betterbytesvn.com/product/fullstack-automation-qa-voi-playwright-typescript/
+                    - generic [ref=e108]: Sale!
+                    - img "FullStack Automation QA với Playwright Typescript" [ref=e109]
+                    - heading "FullStack Automation QA với Playwright Typescript" [level=2] [ref=e110]
+                    - generic [ref=e111]:
+                      - deletion [ref=e112]:
+                        - generic [ref=e114]: 2.499.000 $
+                      - generic [ref=e115]: "Original price was: 2.499.000 $."
+                      - insertion [ref=e116]:
+                        - generic [ref=e118]: 1.749.000 $
+                      - generic [ref=e119]: "Current price is: 1.749.000 $."
+                  - 'button "Add to cart: “FullStack Automation QA với Playwright Typescript”" [ref=e120] [cursor=pointer]': Add to cart
+                - listitem [ref=e122]:
+                  - 'link "Sale! ISTQB Test Manager ISTQB Test Manager Original price was: 599.000 $. Current price is: 279.000 $." [ref=e123] [cursor=pointer]':
+                    - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-test-manager/
+                    - generic [ref=e124]: Sale!
+                    - img "ISTQB Test Manager" [ref=e125]
+                    - heading "ISTQB Test Manager" [level=2] [ref=e126]
+                    - generic [ref=e127]:
+                      - deletion [ref=e128]:
+                        - generic [ref=e130]: 599.000 $
+                      - generic [ref=e131]: "Original price was: 599.000 $."
+                      - insertion [ref=e132]:
+                        - generic [ref=e134]: 279.000 $
+                      - generic [ref=e135]: "Current price is: 279.000 $."
+                  - 'button "Add to cart: “ISTQB Test Manager”" [ref=e136] [cursor=pointer]': Add to cart
+                - listitem [ref=e138]:
+                  - 'link "Sale! API automation Testing với Playwright TypeScript API automation Testing với Playwright TypeScript Original price was: 599.000 $. Current price is: 579.000 $." [ref=e139] [cursor=pointer]':
+                    - /url: https://e-commerce-dev.betterbytesvn.com/product/api-automation-testing-voi-playwright-typescript/
+                    - generic [ref=e140]: Sale!
+                    - img "API automation Testing với Playwright TypeScript" [ref=e141]
+                    - heading "API automation Testing với Playwright TypeScript" [level=2] [ref=e142]
+                    - generic [ref=e143]:
+                      - deletion [ref=e144]:
+                        - generic [ref=e146]: 599.000 $
+                      - generic [ref=e147]: "Original price was: 599.000 $."
+                      - insertion [ref=e148]:
+                        - generic [ref=e150]: 579.000 $
+                      - generic [ref=e151]: "Current price is: 579.000 $."
+                  - 'button "Add to cart: “API automation Testing với Playwright TypeScript”" [ref=e152] [cursor=pointer]': Add to cart
+                - listitem [ref=e154]:
+                  - 'link "Sale! ISTQB Foundation Tiếng Việt - đã chỉnh sửa ISTQB Foundation Tiếng Việt – đã chỉnh sửa Original price was: 599.000 $. Current price is: 279.000 $." [ref=e155] [cursor=pointer]':
+                    - /url: https://e-commerce-dev.betterbytesvn.com/product/istqb-foundation-tieng-viet/
+                    - generic [ref=e156]: Sale!
+                    - img "ISTQB Foundation Tiếng Việt - đã chỉnh sửa" [ref=e157]
+                    - heading "ISTQB Foundation Tiếng Việt – đã chỉnh sửa" [level=2] [ref=e158]
+                    - generic [ref=e159]:
+                      - deletion [ref=e160]:
+                        - generic [ref=e162]: 599.000 $
+                      - generic [ref=e163]: "Original price was: 599.000 $."
+                      - insertion [ref=e164]:
+                        - generic [ref=e166]: 279.000 $
+                      - generic [ref=e167]: "Current price is: 279.000 $."
+                  - 'button "Add to cart: “ISTQB Foundation Tiếng Việt - đã chỉnh sửa”" [ref=e168] [cursor=pointer]': Add to cart
+        - complementary [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Các comment gần đây" [level=2] [ref=e174]
+            - list [ref=e175]:
+              - listitem [ref=e176]:
+                - article [ref=e177]:
+                  - generic [ref=e178]:
+                    - link "admin" [ref=e179] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com
+                    - text: "on"
+                    - link "The Complete Graphic Design For Beginners" [ref=e180] [cursor=pointer]:
+                      - /url: https://e-commerce-dev.betterbytesvn.com/the-complete-graphic-design-for-beginners-2/#comment-1219
+          - generic [ref=e183]:
+            - heading "Categories" [level=2] [ref=e184]
+            - list [ref=e185]:
+              - listitem [ref=e186]:
+                - link "Courses" [ref=e187] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/courses/
+              - listitem [ref=e188]:
+                - link "Uncategorized" [ref=e189] [cursor=pointer]:
+                  - /url: https://e-commerce-dev.betterbytesvn.com/category/uncategorized/
+    - contentinfo [ref=e190]:
+      - generic [ref=e192]:
+        - text: Theme by
+        - link "EnvoThemes" [ref=e193] [cursor=pointer]:
+          - /url: https://envothemes.com/
+  - status [ref=e194]

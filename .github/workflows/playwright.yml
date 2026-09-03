@@ -1,0 +1,76 @@
+name: Playwright Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Nightly full regression at 02:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: Which test suite to run
+        type: choice
+        default: smoke
+        options: [smoke, e2e, regression, all]
+
+jobs:
+  select-suite:
+    runs-on: ubuntu-latest
+    outputs:
+      suite: ${{ steps.pick.outputs.suite }}
+    steps:
+      - id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            suite="${{ inputs.suite }}"
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            suite="smoke"
+          else
+            # push to main + nightly schedule
+            suite="regression"
+          fi
+          echo "suite=$suite" >> "$GITHUB_OUTPUT"
+          echo "Selected suite: $suite"
+
+  test:
+    needs: select-suite
+    name: ${{ needs.select-suite.outputs.suite }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Falls back to the default in playwright.config.ts when the secret is unset.
+      BASE_URL: ${{ secrets.BASE_URL }}
+      SUITE: ${{ needs.select-suite.outputs.suite }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run ${{ env.SUITE }} tests
+        run: |
+          case "$SUITE" in
+            smoke)      npx playwright test --grep @smoke ;;
+            e2e)        npx playwright test --grep @e2e ;;
+            regression) npx playwright test --grep @regression ;;
+            all)        npx playwright test ;;
+            *)          echo "Unknown suite: $SUITE" && exit 1 ;;
+          esac
+
+      - name: Upload Playwright report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ env.SUITE }}
+          path: playwright-report/
+          retention-days: 30

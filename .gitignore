@@ -6,8 +6,10 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
-# Project env file
+# Project env files (per-environment secrets); keep the template committed
 .env
+.env.*
+!.env.example
 
 # Claude Code project guidance
 CLAUDE.md
